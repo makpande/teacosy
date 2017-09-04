@@ -1,0 +1,121 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  background: black;
+  color: white;
+  height: 48px;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.header ul li {
+  display: inline;
+  padding: 9px;
+}
+.header img {
+  height: 50px;
+}
+.header a {
+  color: white;
+}
+
+/* Mission */
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission-statement {
+  background-color: black;
+  flex-grow: 1;
+}
+
+/* Featured Tea */
+
+#featured-tea {
+  width: 1000px;
+}
+
+#featured-tea .item {
+  display: inline-flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0px 10px;
+}
+#featured-tea .item img {
+  width: 300px;
+  height: 200px;
+}
+#featured-tea .item h4 {
+  margin: 10px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+}
+#locations h2 {
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+#locations .item {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0px 20px;
+  display: inline-flex;
+  flex-flow: nowrap column;
+}
+
+#locations .item h3 span {
+  font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+  height: 200px;
+}
+
+/* Copyright */
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#mission, #featured-tea, #locations {
+  margin: 0px auto;
+}
